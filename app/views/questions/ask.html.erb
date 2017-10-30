@@ -1,0 +1,26 @@
+<p>Find me in app/views/questions/ask.html.erb</p>
+
+<div class="container">
+  <div class="text-center">
+    <h2>Questions#answer</h2>
+
+
+    <form action="/questions" method="get">
+      <!-- # above is the path of the request + type of request done to the router -->
+
+      <input type="text" name="query" placeholder="Ask your question...">
+      <input type="text" name="name" placeholder="tell me your name..">
+      <!-- # above here we have the data that will be sent via the request  -->
+      <input class="btn btn-primary" type="submit" value="Go on!">
+      <!-- #this is a great button :) -->
+    </form>
+
+
+
+  </div>
+</div>
+
+
+
+<!-- Your question to your coach should be given as a parameter named :query. Ex: GET /answer?query=hello or GET /answer?query=what+should+i+do?. -->
+

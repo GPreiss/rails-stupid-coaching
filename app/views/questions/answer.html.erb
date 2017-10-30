@@ -1,0 +1,16 @@
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+<div class="container">
+  <h2>Questions#answer</h2>
+  <div class="textbox">
+    <p class="message"><%= @params  %></p>
+    <p class="author">-You</p>
+  </div>
+  <div class="textbox">
+    <p class="message"><%= @answer %></p>
+    <p class="author">-Coach</p>
+  </div>
+</div>
+
+
+<p class="text-center"><%= link_to "Ask a new question", ask_path %></p>
